@@ -384,7 +384,7 @@ nginx:
       default: false
       controllerValue: k8s.io/internal-ingress-nginx
     service:
-      type: ClusterIP
+      type: NodePort
 
 ## Extra configurations:
 ## - manifests
